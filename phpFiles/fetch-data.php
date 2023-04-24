@@ -1,3 +1,4 @@
+
 <?php
 include 'connection.php';
 
@@ -15,6 +16,7 @@ echo'
 <th>Password</th>
 <th>Confirm Password</th>
 <th>Gender</th>
+<th>Commands</th>
 </tr>
 </thead>
 
@@ -32,6 +34,7 @@ if(mysqli_num_rows($query)>0){
         <td>'.$row['pass'].'</td>
         <td>'.$row['cpass'].'</td>
         <td>'.$row['gender'].'</td>
+        <td style="background-color:red !important;cursor:pointer;color:white;"><a href="delete.php?id='.$row['id'].'">Delete</a></td>
         </tr>
 
 

@@ -5,7 +5,6 @@ if(isset($_POST['register'])){
     $name = mysqli_real_escape_string($mysqli, $_POST['name']);
     $username = mysqli_real_escape_string($mysqli, $_POST['user-name']);
     $email = mysqli_real_escape_string($mysqli, $_POST['email']);
-    // Check if number is numeric and convert to integer
         $phone = intval($_POST['number']);
    
     $pass = password_hash($_POST['pass'], PASSWORD_DEFAULT);
