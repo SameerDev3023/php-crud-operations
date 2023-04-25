@@ -1,0 +1,7 @@
+table{
+    display: inline-table;
+    background-color: antiquewhite;
+    width: 50px !important;
+    margin: 50px;
+    padding: auto;
+}
