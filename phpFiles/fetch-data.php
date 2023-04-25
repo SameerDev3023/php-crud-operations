@@ -42,7 +42,7 @@
                     <td>'.$row['cpass'].'</td>
                     <td>'.$row['gender'].'</td>
                     <td style="background-color:red !important;cursor:pointer;color:white;"><a href="delete.php?id='.$row['id'].'">Delete</a></td>
-                    <td style="background-color:green !important;cursor:pointer;color:black;"><a href="../update-form.php?id='.$row['id'].'">Update</a></td>
+                    <td style="background-color:green !important;cursor:pointer;color:black;"><a href="update-form.php?id='.$row['id'].'">Update</a></td>
                     </tr>
 
 

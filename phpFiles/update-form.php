@@ -8,10 +8,10 @@
 <body>
 <div class="container">
     <h1 class="col-md-12  mb-5 text-center bg-success text-white">Update your details</h1>
-<form  action="phpFiles/update-data.php" method="post">
+<form  action="update-data.php" method="post">
 <?php
 session_start();
-include 'phpFiles/connection.php';
+include 'connection.php';
 $id = $_GET['id'];
 $_SESSION["id"] = $id;
 $query = "SELECT * FROM `crud-operations` WHERE id=$id";
