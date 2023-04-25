@@ -3,7 +3,7 @@
     <title>
     
    </title>
-   <link href="../assests/table-data.css" rel="stylesheet">
+   <link href="../assests/css/table-data.css" rel="stylesheet">
   
 </head>
 <body>
